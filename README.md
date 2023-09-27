@@ -2,8 +2,10 @@
 This repository is a work in progress iOS TaskManager app designed to simplify your life by helping you stay organized and efficient. With multiple tabs, an authentication system, and an integrated Expenses Manager, this app is built to enhance your task and financial management experience.        
 
 
-**Features**:       
+![(https://github.com/salasyo/TaskManager-Personal-Project-/assets/122159877/9af69f15-e0c4-4588-9dd0-b45f6509c91e)]
 
+
+**Features**:       
   
 
 1. **Task Organization**: Keep track of your to-do lists, appointments, and important dates effortlessly. The app provides multiple tabs and categories to help you organize tasks       efficiently. 
