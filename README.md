@@ -1,7 +1,7 @@
 # TaskManager-Personal-Project-
 This repository is a work in progress iOS TaskManager app designed to simplify your life by helping you stay organized and efficient. With multiple tabs, an authentication system, and an integrated Expenses Manager, this app is built to enhance your task and financial management experience.        
 
-  
+![Uploading Simulator Screen Recording - iPhone 15 Pro Max - 2023-09-27 at 10.15.30.gif...]()
 
 **Features**:       
 
