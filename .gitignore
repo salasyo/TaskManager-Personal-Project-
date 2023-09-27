@@ -1,0 +1,288 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0\c84706;\cssrgb\c100000\c100000\c100000;}
+\margl1440\margr1440\vieww29200\viewh15380\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 # Xcode\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 #\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \'a0\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # GoogleService-Info.plist\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 **/GoogleService-Info.plist\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \'a0\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 ## User settings\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 xcuserdata/\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \'a0\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 *.xcscmblueprint\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 *.xccheckout\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \'a0\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 ## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 build/\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 DerivedData/\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 *.moved-aside\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 *.pbxuser\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 !default.pbxuser\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 *.mode1v3\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 !default.mode1v3\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 *.mode2v3\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 !default.mode2v3\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 *.perspectivev3\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 !default.perspectivev3\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \'a0\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 ## Obj-C/Swift specific\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 *.hmap\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \'a0\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 ## App packaging\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 *.ipa\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 *.dSYM.zip\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 *.dSYM\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \'a0\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 ## Playgrounds\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 timeline.xctimeline\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 playground.xcworkspace\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \'a0\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # Swift Package Manager\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 #\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # Packages/\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # Package.pins\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # Package.resolved\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # *.xcodeproj\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 #\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # hence it is not needed unless you have added a package configuration file to your project\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # .swiftpm\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \'a0\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 .build/\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \'a0\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # CocoaPods\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 #\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # We recommend against adding the Pods directory to your .gitignore. However\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # you should judge for yourself, the pros and cons are mentioned at:\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 #\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # Pods/\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 #\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # Add this line if you want to avoid checking in source code from the Xcode workspace\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # *.xcworkspace\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \'a0\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # Carthage\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 #\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # Add this line if you want to avoid checking in source code from Carthage dependencies.\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # Carthage/Checkouts\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \'a0\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 Carthage/Build/\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \'a0\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # Accio dependency management\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 Dependencies/\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 .accio/\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \'a0\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # fastlane\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 #\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # It is recommended to not store the screenshots in the git repo.\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # Instead, use fastlane to re-generate the screenshots whenever they are needed.\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # For more information about the recommended setup visit:\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # https://docs.fastlane.tools/best-practices/source-control/#source-control\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \'a0\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 fastlane/report.xml\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 fastlane/Preview.html\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 fastlane/screenshots/**/*.png\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 fastlane/test_output\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \'a0\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # Code Injection\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 #\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # After new code Injection tools there's a generated folder /iOSInjectionProject\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 # https://github.com/johnno1962/injectionforxcode\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \'a0\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \AppleTypeServices\AppleTypeServicesF65539 \cb3 iOSInjectionProject/\AppleTypeServices \'a0
+\f1\fs24 \cb1 \
+}
