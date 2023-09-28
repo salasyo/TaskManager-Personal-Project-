@@ -5,9 +5,6 @@ This repository is a work in progress iOS TaskManager app designed to simplify y
 ![App Showcase](/images/Simulator-pt1.gif)
 
 
-![App Showcase](/images/Simulator-pt2.gif)
-
-
 **Features**:       
   
 
@@ -26,6 +23,8 @@ This repository is a work in progress iOS TaskManager app designed to simplify y
 
 4. **User-Friendly Interface**: The app is designed with a user-friendly interface to make task and expense management a breeze. Intuitive navigation and clean design help you stay productive. 
 
+
+![App Showcase](/images/Simulator-pt2.gif)
    
 
 **Work in Progress**:        
