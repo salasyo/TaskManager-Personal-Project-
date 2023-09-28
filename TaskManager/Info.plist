@@ -11,11 +11,11 @@
 			<string>Google Sign In</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.444046439991-6gjq3rtt95se531ihbl0kvjienib5nto</string>
+				<string>com.googleusercontent.apps.782042091506-5l3j192icmko6qjnq8jssojaru3c923b</string>
 			</array>
 		</dict>
 	</array>
 	<key>GIDClientID</key>
-	<string>444046439991-6gjq3rtt95se531ihbl0kvjienib5nto.apps.googleusercontent.com</string>
+	<string>782042091506-5l3j192icmko6qjnq8jssojaru3c923b.apps.googleusercontent.com</string>
 </dict>
 </plist>
