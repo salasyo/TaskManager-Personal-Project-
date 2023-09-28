@@ -3,6 +3,8 @@ This repository is a work in progress iOS TaskManager app designed to simplify y
 
 
 ![App Showcase](/images/Simulator-pt1.gif)
+
+
 ![App Showcase](/images/Simulator-pt2.gif)
 
 
