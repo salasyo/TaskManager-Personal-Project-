@@ -48,22 +48,14 @@ struct TabbarView: View {
                     }
                     .setUpTab(.categories)
                     .tag(Tab.categories)
-                
-                    // FAVORITES
-                    NavigationStack {
-                    FavoriteView()
-                        .onTapGesture { activeTab = .favorites }
-                    }
-                    .setUpTab(.favorites)
-                    .tag(Tab.favorites)
                     
-                    // PROFILE
+                    // SETTINGS
                     NavigationStack {
-                        ProfileView(showSignInView: $showSignInView)
-                            .onTapGesture { activeTab = .profile }
+                        SettingsView(showSignInView: $showSignInView)
+                            .onTapGesture { activeTab = .settings }
                     }
-                    .setUpTab(.profile)
-                    .tag(Tab.profile)
+                    .setUpTab(.settings)
+                    .tag(Tab.settings)
                 
                 }
                 .edgesIgnoringSafeArea(.bottom)

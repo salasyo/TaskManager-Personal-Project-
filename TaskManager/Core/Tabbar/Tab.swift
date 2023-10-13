@@ -11,8 +11,8 @@ enum Tab: String, CaseIterable {
     case home = "house"
     case expenses = "creditcard"
     case categories = "list.clipboard"
-    case favorites = "star"
-    case profile = "person.crop.circle"
+//    case favorites = "star"
+    case settings = "gearshape"
     
     var title: String {
         switch self {
@@ -22,10 +22,10 @@ enum Tab: String, CaseIterable {
             return "Expenses"
         case .categories:
             return "Categories"
-        case .favorites:
-            return "Favorites"
-        case .profile:
-            return "Account"
+//        case .favorites:
+//            return "Favorites"
+        case .settings:
+            return "Settings"
         }
     }
 }

@@ -57,7 +57,11 @@ struct ExpensesView: View {
             .overlay {
                 if allExpenses.isEmpty || groupedExpenses.isEmpty {
                     ContentUnavailableView {
-                        Label("No Expenses", systemImage: "tray.fill")
+                        Label("No Expenses 🤔", systemImage: "tray.fill")
+                            .font(.title)
+                            .fontWeight(.semibold)
+                            .foregroundStyle(Color(.darkPurple))
+                            .padding(.bottom, 20)
                     }
                 }
             }

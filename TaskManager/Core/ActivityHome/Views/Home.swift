@@ -107,13 +107,13 @@ struct Home: View {
         }
         .hSpacing(.leading)
         .overlay(alignment: .topTrailing, content: {
-            NavigationLink(destination: ProfileView(showSignInView: $showSignInView)) {
+            NavigationLink(destination: SettingsView(showSignInView: $showSignInView)) {
                     Image(.pic)
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 45, height: 45)
                         .clipShape(.circle)
-                        .onTapGesture { activeTab = .profile }
+                        .onTapGesture { activeTab = .settings }
                 }
         })
         .padding(15)

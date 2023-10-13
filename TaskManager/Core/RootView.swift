@@ -11,6 +11,11 @@ struct RootView: View {
     
     @State private var showSignInView: Bool = false
     
+    init() {
+        // Use this if NavigationBarTitle is with Large Font
+        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor(Color(.darkPurple))]
+    }
+    
     var body: some View {
         ZStack {
             if !showSignInView {

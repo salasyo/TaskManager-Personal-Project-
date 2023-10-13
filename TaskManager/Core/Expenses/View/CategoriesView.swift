@@ -17,11 +17,15 @@ struct CategoriesView: View {
     /// Category Delete Request
     @State private var deleteRequest: Bool = false
     @State private var requestedCategory: Category?
+    /// Search Text
+    @State private var searchTextCat: String = ""
    
     var body: some View {
         NavigationStack {
             List {
-                ForEach(allCategories.sorted(by: {
+                ForEach(allCategories.filter { category in
+                    searchTextCat.isEmpty || category.categoryName.lowercased().contains(searchTextCat.lowercased())
+                }.sorted(by: {
                     ($0.expenses?.count ?? 0) > ($1.expenses?.count ?? 0)
                 })) { category in
                     DisclosureGroup {
@@ -32,21 +36,16 @@ struct CategoriesView: View {
                         } else {
                             ContentUnavailableView {
                                 Label("No Categories", systemImage: "tray.fill")
+                                    .font(.title)
+                                    .fontWeight(.semibold)
+                                    .foregroundStyle(Color(.darkPurple))
+                                    .padding(.bottom, 20)
                             }
                         }
                     } label: {
                         Text(category.categoryName)
-                        
-//                        if let categoryName = expense.category?.categoryName, displayTag {
-//                            Text(categoryName)
-//                                .font(.caption)
-//                                .foregroundStyle(.white)
-//                                .padding(.horizontal, 10)
-//                                .padding(.vertical, 4)
-//                                .background(.red.gradient, in: .capsule)
-//                        }
                     }
-                    .swipeActions(edge: .trailing, allowsFullSwipe: false) {
+                    .swipeActions(edge: .trailing, allowsFullSwipe: true) {
                         Button {
                             deleteRequest.toggle()
                             requestedCategory = category
@@ -58,10 +57,15 @@ struct CategoriesView: View {
                 }
             }
             .navigationTitle("Categories")
+            .searchable(text: $searchTextCat, placement: .navigationBarDrawer, prompt: Text("Search"))
             .overlay {
                 if allCategories.isEmpty {
                     ContentUnavailableView {
-                        Label("No Categories", systemImage: "tray.fill")
+                        Label("No Categories 😱", systemImage: "tray.fill")
+                            .font(.title)
+                            .fontWeight(.semibold)
+                            .foregroundStyle(Color(.darkPurple))
+                            .padding(.bottom, 20)
                     }
                 }
             }

@@ -32,8 +32,10 @@
 		D54477452AA7C21A00E6C8D3 /* SignInEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54477442AA7C21A00E6C8D3 /* SignInEmailViewModel.swift */; };
 		D54477482AA7C25F00E6C8D3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54477472AA7C25F00E6C8D3 /* ProfileView.swift */; };
 		D544774B2AA7CE5300E6C8D3 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D544774A2AA7CE5300E6C8D3 /* UserManager.swift */; };
-		D558D51A2AC07913003DCD5A /* SymbolTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D558D5192AC07913003DCD5A /* SymbolTransition.swift */; };
 		D55F360A2A4804F90060BE38 /* SignInAppleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55F36092A4804F90060BE38 /* SignInAppleHelper.swift */; };
+		D56006802AC5E4C600F06DB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D560067E2AC5E4C600F06DB9 /* LaunchScreen.storyboard */; };
+		D56006812AC5E4C600F06DB9 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D560067F2AC5E4C600F06DB9 /* LaunchView.swift */; };
+		D56006832AC5E57900F06DB9 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56006822AC5E57900F06DB9 /* Color.swift */; };
 		D56394FB2A36DB0B00227867 /* TaskManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56394FA2A36DB0B00227867 /* TaskManagerApp.swift */; };
 		D56394FF2A36DB0C00227867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56394FE2A36DB0C00227867 /* Assets.xcassets */; };
 		D56395022A36DB0C00227867 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56395012A36DB0C00227867 /* Preview Assets.xcassets */; };
@@ -87,8 +89,10 @@
 		D54477442AA7C21A00E6C8D3 /* SignInEmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailViewModel.swift; sourceTree = "<group>"; };
 		D54477472AA7C25F00E6C8D3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		D544774A2AA7CE5300E6C8D3 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
-		D558D5192AC07913003DCD5A /* SymbolTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolTransition.swift; sourceTree = "<group>"; };
 		D55F36092A4804F90060BE38 /* SignInAppleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInAppleHelper.swift; sourceTree = "<group>"; };
+		D560067E2AC5E4C600F06DB9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D560067F2AC5E4C600F06DB9 /* LaunchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		D56006822AC5E57900F06DB9 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		D56394F72A36DB0B00227867 /* TaskManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56394FA2A36DB0B00227867 /* TaskManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerApp.swift; sourceTree = "<group>"; };
 		D56394FE2A36DB0C00227867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -157,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				D516B7B92ABFB46600A88603 /* Query+EXT.swift */,
+				D56006822AC5E57900F06DB9 /* Color.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -278,6 +283,23 @@
 			path = Firestore;
 			sourceTree = "<group>";
 		};
+		D560067C2AC5E4B500F06DB9 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				D560067D2AC5E4C600F06DB9 /* Views */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		D560067D2AC5E4C600F06DB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D560067E2AC5E4C600F06DB9 /* LaunchScreen.storyboard */,
+				D560067F2AC5E4C600F06DB9 /* LaunchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D56394EE2A36DB0B00227867 = {
 			isa = PBXGroup;
 			children = (
@@ -308,6 +330,7 @@
 				D516B7B62ABFB3F600A88603 /* Components */,
 				D516B7B52ABFB30E00A88603 /* Extensions */,
 				D516B7BB2ABFB4C500A88603 /* Storage */,
+				D560067C2AC5E4B500F06DB9 /* Launch */,
 				D56394FE2A36DB0C00227867 /* Assets.xcassets */,
 				D56395002A36DB0C00227867 /* Preview Content */,
 			);
@@ -352,8 +375,8 @@
 			isa = PBXGroup;
 			children = (
 				D565EE952AC182D900D0C78F /* Expense.swift */,
-				D565EE932AC182D900D0C78F /* Category.swift */,
 				D565EE942AC182D900D0C78F /* GroupedExpense.swift */,
+				D565EE932AC182D900D0C78F /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -401,7 +424,6 @@
 			isa = PBXGroup;
 			children = (
 				D516B7AE2ABFB1FF00A88603 /* TabbarView.swift */,
-				D558D5192AC07913003DCD5A /* SymbolTransition.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -487,6 +509,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5C53A312AC477AE00E2069E /* GoogleService-Info.plist in Resources */,
+				D56006802AC5E4C600F06DB9 /* LaunchScreen.storyboard in Resources */,
 				D56395022A36DB0C00227867 /* Preview Assets.xcassets in Resources */,
 				D56394FF2A36DB0C00227867 /* Assets.xcassets in Resources */,
 			);
@@ -515,7 +538,7 @@
 				D565EEA42AC182D900D0C78F /* Category.swift in Sources */,
 				D516B7DF2ABFBABF00A88603 /* TaskRowView.swift in Sources */,
 				D544774B2AA7CE5300E6C8D3 /* UserManager.swift in Sources */,
-				D558D51A2AC07913003DCD5A /* SymbolTransition.swift in Sources */,
+				D56006812AC5E4C600F06DB9 /* LaunchView.swift in Sources */,
 				D5C4C4B32AB0A61200FC4607 /* ProductView.swift in Sources */,
 				D56394FB2A36DB0B00227867 /* TaskManagerApp.swift in Sources */,
 				D5C4C4B52AB0A9B100FC4607 /* ProductsManager.swift in Sources */,
@@ -523,6 +546,7 @@
 				D54477452AA7C21A00E6C8D3 /* SignInEmailViewModel.swift in Sources */,
 				D5AAA0DB2A3C0D7300152C84 /* SignInGoogleHelper.swift in Sources */,
 				D563951A2A378A3E00227867 /* RootView.swift in Sources */,
+				D56006832AC5E57900F06DB9 /* Color.swift in Sources */,
 				D56395142A36E3F700227867 /* AuthenticationView.swift in Sources */,
 				D5C4C4B02AB0A5C500FC4607 /* ProductsDatabase.swift in Sources */,
 				D516B7AC2ABFB18400A88603 /* ProfileViewModel.swift in Sources */,

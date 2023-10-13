@@ -56,7 +56,7 @@ struct TasksView: View {
 //                animate = false
                 
                 VStack(spacing: 10) {
-                    Text("No Task's Found! 😭")
+                    Text("No Task's Found 😭")
                         .font(.title)
                         .fontWeight(.semibold)
                         .foregroundStyle(Color(.darkPurple))

@@ -107,6 +107,7 @@ struct ProfileView: View {
                 } label: {
                     Image(systemName: "gear")
                         .font(.headline)
+                        .foregroundStyle(Color("DarkPurple"))
                 }
             }
         }

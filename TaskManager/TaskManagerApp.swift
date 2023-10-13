@@ -12,12 +12,31 @@ import Firebase
 struct TaskManagerApp: App {
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @State private var showLaunchView: Bool = true
     
     var body: some Scene {
         WindowGroup {
-            RootView()
+            ZStack {
+                NavigationView {
+                    RootView()
+                }
+                .modelContainer(for: [Activity.self, Expense.self, Category.self])
+                
+                if showLaunchView {
+                    LaunchView(showLaunchView: $showLaunchView)
+                        .transition(.move(edge: .leading))
+                        .zIndex(2.0)
+                        .onAppear {
+                         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                          withAnimation {
+                             showLaunchView = false
+                             }
+                           }
+                     }
+                }
+            }
         }
-        .modelContainer(for: [Activity.self, Expense.self, Category.self])
+        
     }
 }
 

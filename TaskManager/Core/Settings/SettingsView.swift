@@ -52,6 +52,8 @@ struct SettingsView: View {
             viewModel.loadAuthUser()
         }
         .navigationBarTitle("Settings")
+        .navigationBarTitleDisplayMode(.large)
+        
     }
 }
 
